@@ -20,7 +20,7 @@ public class Solution
     Object[] a = s.toArray(); //convert to array.
     System.out.println(a[0]);
     
-    Iterator i = s.iterator(); //HashSet iterator
+    Iterator<Integer> i = s.iterator(); //HashSet iterator
     while (i.hasNext()) i.next(); // hasNext and next for iterator
     
     HashSet <Integer> s2 = new HashSet<Integer>();
