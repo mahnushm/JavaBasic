@@ -21,7 +21,7 @@ public class Solution
     System.out.println(a[0]);
     
     Iterator i = s.iterator(); //HashSet iterator
-    while (i.hasNext()) i.next(); // hasnext and next for iterator
+    while (i.hasNext()) i.next(); // hasNext and next for iterator
     
     s.clear(); // clear the set.
       
