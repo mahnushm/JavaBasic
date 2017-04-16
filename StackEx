@@ -1,0 +1,17 @@
+import java.util.*;
+
+public class StackDemo {
+
+  public static void main(String args[]){
+    
+    Stack<Integer> st = new Stack<Integer>();
+    st.push(new Integer(1));
+    st.push(new Integer(2));
+    int a = (int)st.pop();
+    int b = (int)st.pop();
+    st.push(a+b);
+    System.out.println(st);
+  
+  }
+
+}
